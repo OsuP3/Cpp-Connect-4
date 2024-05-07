@@ -10,6 +10,7 @@ void PrintBoard(vector<char> board){// 6 vertical, 7 horizontal
     }
     cout<<" 1 2 3 4 5 6 7 "<<endl;
 }
+
 string Result(vector<char> board){
     vector<char> four = {};
 
@@ -77,6 +78,7 @@ string Result(vector<char> board){
 
     return "DRAW";
 }
+
 
 int main()
 {
